@@ -5,26 +5,26 @@ success_symbol = "[➜](bold green) "
 error_symbol = "[✗](bold red) "
 
 [git_branch]
-symbol = '🌱 '
+symbol = ' '
 truncation_length = 4
 truncation_symbol = ''
 # ignore_branches = ['master', 'main']
 
 [python]
-symbol = "🐍 "
+symbol = "󰌠 "
 python_binary = ['./venv/bin/python', 'python', 'python3']
 version_format = "v${major}.${minor}"
 style = "yellow bold"
 
 [directory]
 style = "cyan bold"
-truncation_length = 2
-truncation_symbol = '…/'
+truncation_length = 8
+truncation_symbol = '../ '
 
 [aws]
 format = 'on [$profile:<$region>]($style) '
 style = 'bold blue'
-symbol = '🅰 '
+symbol = '󰸏 '
 force_display = true
 
 [line_break]
